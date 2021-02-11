@@ -2,31 +2,24 @@ package com.company;
 
 public class Schedule {
 
-    public int start_time;
-    public int end_time;
+    public int startTime;
+    public int endTime;
 
+    //constructor
+    Schedule(int startTime, int endTime) {
+        this.startTime = startTime;
+        this.endTime = endTime;
+    }
     public static void main(String[] args) {
 
+        System.out.printf("hi");
+
     }
 
-    Schedule(int start_time, int end_time) {
-        this.start_time = start_time;
-        this.end_time = end_time;
-    }
-
-    public void setStart_time(int start_time) {
-        this.start_time = start_time;
-    }
-
-    public int getStart_time(){
-        return this.start_time;
-    }
-
-    public void setEnd_time(int end_time){
-        this.end_time = end_time;//asdsdsadasd
-    }
-
-    public int getEnd_time(){
-        return this.end_time;
-    }
+//setters
+    public void setStart_time(int startTime){this.startTime = startTime;}
+    public void setEnd_time(int endTime){this.endTime = endTime;}
+//getters
+    public int getStart_time(){return this.startTime;}
+    public int getEnd_time(){return this.endTime;}
 }
