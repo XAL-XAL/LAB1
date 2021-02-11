@@ -12,7 +12,10 @@ public class Schedule {
     }
     public static void main(String[] args) {
 
-        System.out.printf("hi");
+     CharteredBus bus = new CharteredBus("Ford", "GT6", 1996, "123757849", "12A524GT", 200, "BOB");
+     System.out.println(bus.getMake());
+     bus.printCharteredBus();
+
 
     }
 

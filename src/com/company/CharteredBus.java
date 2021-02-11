@@ -10,6 +10,7 @@ public class CharteredBus extends Bus{
         this.capacity = capacity;
         this.renter = renter;
     }
-
-
+   public void printCharteredBus(){
+       System.out.println("Make: " + this.make + "\nModel: " + this.model + "\nYear: " + this.year + "\nVIN: " + this.VIN + "\nPlate Number: " + this.plateNo + "\nCapacity: " + this.capacity + "\nRenter: " + this.renter);
+    }
 }
