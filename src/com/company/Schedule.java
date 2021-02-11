@@ -10,6 +10,7 @@ public class Schedule {
         this.startTime = startTime;
         this.endTime = endTime;
     }
+    //private CharteredBus bus;
     public static void main(String[] args) {
 
      CharteredBus bus = new CharteredBus("Ford", "GT6", 1996, "123757849", "12A524GT", 200, "BOB");
