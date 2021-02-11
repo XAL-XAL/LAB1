@@ -23,7 +23,7 @@ public class Schedule {
     }
 
     public void setEnd_time(int end_time){
-        this.end_time = end_time;
+        this.end_time = end_time;//asd
     }
 
     public int getEnd_time(){
